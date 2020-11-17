@@ -134,6 +134,7 @@ main > article > header {
     height: unset;
     padding: 100px 40px;
 }
+}
 /* the main header should have a grid gap of 40px*/
 
 main > article > header.grid-1-2 {
