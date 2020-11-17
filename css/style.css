@@ -20,7 +20,7 @@ font-size: 19px;
 
 img {
     width: 100%;
-
+    display: block;
 }
 
 figure {
@@ -38,12 +38,11 @@ main > article > section {
 
 /* This is only applied to desktop*/
 @media (min-width: 768px) {
-    /* this is a grif with two columns*/
+    /* this is a grid with two columns*/
 
     .grid-1-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
     }
 }
 
@@ -63,6 +62,18 @@ main > article > section {
 .card p {
     font-size: 17px;
 }
+
+/* This is only applied to desktop*/
+@media (min-width: 768px) {
+
+/* image should fill containter of card that also has two columns*/
+.card.grid-1-2 img {
+    object-fit: cover;
+    height: 100%;
+}
+
+}
+
 
 
 /* Header Styles */
