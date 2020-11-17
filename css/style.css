@@ -36,7 +36,7 @@ main > article > section {
 }
 
 @media (min-width: 768px) {
-    main > article > section > header > p {
+    main > article > section > header p {
         max-width: 50%;
     }
     main > article > section {
