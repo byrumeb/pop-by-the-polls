@@ -44,7 +44,15 @@ main > article > section {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    /* this is a grid with four columns*/
+    .grid-1-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+
 }
+
 
 /* Card Styles */
 
