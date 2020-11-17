@@ -93,6 +93,7 @@ main > article > header {
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-around;
 }
 
 main > article > header h1 {
