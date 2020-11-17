@@ -59,7 +59,7 @@ main > article > section {
 /* Header Styles */
 
 main > article > header {
-    background: linear-gradient (to right, #23517f, #80424D);
+    background: linear-gradient(to right, #23517f, #80424D);
     color: #ffffff;
     padding: 20px;
 }
