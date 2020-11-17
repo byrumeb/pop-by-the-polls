@@ -36,9 +36,10 @@ main > article > section {
 }
 
 @media (min-width: 768px) {
-    main > article > section > header p {
+    main > article > section > header > p {
         max-width: 50%;
     }
+    
     main > article > section {
         padding: 65px 40px;
         max-width: 1300px;
