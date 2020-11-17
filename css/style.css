@@ -91,6 +91,8 @@ main > article > header {
     color: white;
     padding: 0 20px;
     height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 main > article > header h1 {
@@ -105,6 +107,20 @@ main > article > header a {
     padding: 20px;
     display: inline-block;
 }
+
+@media (min-width: 768px) {
+main > article > header {
+    height: unset;
+    padding: 100px 20px;
+}
+/* the main header should have a grid gap of 40px*/
+
+main > article > header.grid-1-2 {
+    grid-gap: 100px;
+}
+
+}
+
 
 /* Button Styles */
 
