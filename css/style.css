@@ -36,7 +36,16 @@ main > article > section {
 
 /* Grid Styles */
 
+/* This is only applied to desktop*/
+@media (min-width: 768px) {
+    /* this is a grif with two columns*/
 
+    .grid-1-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
 
 /* Card Styles */
 
